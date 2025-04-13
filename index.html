@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Box Model Example</title>
+    <style>
+        .box-model {
+            width: 300px;
+            background-color: lightblue; /* To show content area */
+            padding: 20px;               /* Space inside the box */
+            border: 5px solid navy;      /* Border around padding */
+            margin: 30px;                /* Space outside the box */
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+
+        .label {
+            font-weight: bold;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="box-model">
+        <p>This box demonstrates the CSS Box Model.</p>
+        <p>Content is inside the padding, border, and margin layers.</p>
+    </div>
+
+    <p class="label">Explanation:</p>
+    <ul>
+        <li><strong>Content:</strong> The actual text or element inside the box.</li>
+        <li><strong>Padding:</strong> Space between the content and the border (light blue area).</li>
+        <li><strong>Border:</strong> Navy-colored line surrounding the padding.</li>
+        <li><strong>Margin:</strong> Space outside the border, separating it from other elements.</li>
+    </ul>
+
+</body>
+</html>
